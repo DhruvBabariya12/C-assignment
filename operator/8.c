@@ -5,7 +5,7 @@
 void main()
 {
   char ch;
-  printf("enter ehar\n");
+  printf("enter charactor\n");
   scanf("%c",&ch);
   
   ch>>5&1?ch = ch&~(1<<5):(ch = ch|1<<5);
