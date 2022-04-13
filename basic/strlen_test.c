@@ -3,8 +3,9 @@
 
 void main()
 {
-
-if(strlen("qwertyuiop")-strlen("qwertyuiop"))
+char a[]="abcd";
+char b[]="abc";
+if(strlen(a)<strlen(b))
 {
   printf(" not equal\n");
 }
