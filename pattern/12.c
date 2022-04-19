@@ -8,7 +8,7 @@ void main()
     {
         for(j=1;j<=10;j++)
         {
-            if(i>=j || 10-i <=j)
+            if(i>=j || 10-i+1 <=j)
                 printf("%d ",i);
             else
                 printf("  ");
