@@ -9,26 +9,38 @@
 	result :   00000000000000000000000010111000
 */
 
-#include<stdio.h>
-void main()
-{
-    int num=-15;
-    int rotation=4,i,m,j,k;
-    for(i=31;i>=0;i--)
-        printf("%d",num>>i&1);
-    printf("\n");
+// #include<stdio.h>
+// void main()
+// {
+//     int num=-15;
+//     int rotation=4,i,m,j,k;
+//     for(i=31;i>=0;i--)
+//         printf("%d",num>>i&1);
+//     printf("\n");
 
-    for(i=0;i<rotation;i++)
-    {
-        m = num&1;
-        num=num>>1;
-        k = num>>31&1;
+//     for(i=0;i<rotation;i++)
+//     {
+//         m = num&1;
+//         num=num>>1;
+//         k = num>>31&1;
 
-        if(k != m)
-            num = num^1<<31;
+//         if(k != m)
+//             num = num^1<<31;
         
-    }
-    for(i=31;i>=0;i--)
-        printf("%d",num>>i&1);
-    printf("\n");
+//     }
+//     for(i=31;i>=0;i--)
+//         printf("%d",num>>i&1);
+//     printf("\n");
+// }
+#include<stdio.h>
+void main(){
+unsigned int n=-15;
+
+-15>>31&1?printf("nn\n"):printf("p\n");
+
+// if(n>0)
+//     printf("%d\n",n);
+// else
+//     printf("no\n");
+// }
 }
