@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int main()
 {
     int i,j,row=14,change_state;
